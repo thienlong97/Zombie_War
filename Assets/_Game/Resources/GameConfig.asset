@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab60e3978c38a204e974dbd55b2d3e6c, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  playerConfig:
+    playerName: Tom
+    walkSpeed: 3
+    runSpeed: 5
+  weaponStrategy:
+  - {fileID: 11400000, guid: 3bff39adda52dbb419def35ae0b5e8bc, type: 2}
+  - {fileID: 11400000, guid: 832902ad99e46c741a8b0d27007cecc5, type: 2}
+  - {fileID: 11400000, guid: f56f82ebc8e925c44ba32363a013e3dc, type: 2}
+  grabWeaponSfx: {fileID: 8300000, guid: 785832b034049224396a804af232d91c, type: 3}

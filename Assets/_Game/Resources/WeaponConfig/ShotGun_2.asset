@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae142444eaced6547976f6ff75d79c4e, type: 3}
+  m_Name: ShotGun_2
+  m_EditorClassIdentifier: 
+  projectileConfig: {fileID: 11400000, guid: 17c4b888c9b0cbd4cb1cc3164d29ae06, type: 2}
+  soundFx: {fileID: 8300000, guid: b7c83d02d034c2b4c9fd14359cb69164, type: 3}
+  projectilePrefab: {fileID: 5362165372909025305, guid: 446f64b8e3b54cb408dfb421cc16c4eb, type: 3}
+  fireRate: 0.6
+  _bulletCount: 7

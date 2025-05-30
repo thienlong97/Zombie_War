@@ -1,0 +1,610 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UNITY\\Out_Sources\\Zombie War\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|d:\\unity\\out_sources\\zombie war\\assets\\_game\\scripts\\game\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\game\\enemy\\enemybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\enemy\\enemybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\game\\enemy\\enemyanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\enemy\\enemyanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\core\\managers\\eventbusmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\core\\managers\\eventbusmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\game\\player\\playeranimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\player\\playeranimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\game\\weapon\\state\\playerweaponidlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\weapon\\state\\playerweaponidlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\game\\dataconfig\\gameconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\dataconfig\\gameconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\core\\managers\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\core\\managers\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B08C091-CBC7-8BBA-F210-40B83E78B701}|Assembly-CSharp.Player.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\game\\weapon\\strategy\\shotgunweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B08C091-CBC7-8BBA-F210-40B83E78B701}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\_game\\scripts\\game\\weapon\\strategy\\shotgunweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B08C091-CBC7-8BBA-F210-40B83E78B701}|Assembly-CSharp.Player.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\game\\weapon\\strategy\\rifleweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B08C091-CBC7-8BBA-F210-40B83E78B701}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\_game\\scripts\\game\\weapon\\strategy\\rifleweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\game\\weapon\\projectile\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\weapon\\projectile\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\interfaces\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\interfaces\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\game\\enemy\\enemyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\enemy\\enemyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\game\\weapon\\state\\playerweaponequipstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\weapon\\state\\playerweaponequipstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\game\\weapon\\strategy\\weaponstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\weapon\\strategy\\weaponstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\game\\weapon\\projectile\\projectileconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\weapon\\projectile\\projectileconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\game\\weapon\\state\\playerweaponattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\weapon\\state\\playerweaponattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\game\\weapon\\playerweaponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\weapon\\playerweaponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\statemachine\\basestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\statemachine\\basestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\game\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\game\\player\\state\\idlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\player\\state\\idlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\game\\player\\state\\playerstatefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\player\\state\\playerstatefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\game\\weapon\\weaponbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\weapon\\weaponbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\game\\player\\state\\movestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\player\\state\\movestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\game\\weapon\\state\\playerweaponstatefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\weapon\\state\\playerweaponstatefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\State\\PlayerWeaponState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_Game\\Scripts\\Game\\Weapon\\State\\PlayerWeaponState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\core\\genericsingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\core\\genericsingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\DataConfig\\WeaponConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_Game\\Scripts\\Game\\DataConfig\\WeaponConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_game\\scripts\\game\\dataconfig\\playerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\dataconfig\\playerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_assets\\joystick pack\\scripts\\joysticks\\dynamicjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_assets\\joystick pack\\scripts\\joysticks\\dynamicjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\assets\\_assets\\joystick pack\\scripts\\base\\joystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:assets\\_assets\\joystick pack\\scripts\\base\\joystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Player\\PlayerStateMachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_Game\\Scripts\\Player\\PlayerStateMachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Player\\State\\PlayerStateFactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_Game\\Scripts\\Player\\State\\PlayerStateFactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\WeaponHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_Game\\Scripts\\Game\\Weapon\\WeaponHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Camera\\CameraShake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:Assets\\_Game\\Scripts\\Game\\Camera\\CameraShake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Enemy\\EnemyLevelConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76541BD4-BD95-7039-7CEA-25CA314169FA}|Assembly-CSharp.csproj|solutionrelative:Assets\\_Game\\Scripts\\Game\\Enemy\\EnemyLevelConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Player\\State\\BaseState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_Game\\Scripts\\Game\\Player\\State\\BaseState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ShotGunWeapon.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\Strategy\\ShotGunWeapon.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Weapon\\Strategy\\ShotGunWeapon.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\Strategy\\ShotGunWeapon.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Weapon\\Strategy\\ShotGunWeapon.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAASwBAAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T10:41:56.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Core\\Managers\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Core\\Managers\\AudioManager.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Core\\Managers\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Core\\Managers\\AudioManager.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAASwBwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T17:05:27.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerAnimator.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Player\\PlayerAnimator.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Player\\PlayerAnimator.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Player\\PlayerAnimator.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Player\\PlayerAnimator.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T14:05:27.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnemyBase.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Enemy\\EnemyBase.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Enemy\\EnemyBase.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Enemy\\EnemyBase.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Enemy\\EnemyBase.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T17:25:41.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventBusManager.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Core\\Managers\\EventBusManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Core\\Managers\\EventBusManager.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Core\\Managers\\EventBusManager.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Core\\Managers\\EventBusManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T16:55:33.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameConfig.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\DataConfig\\GameConfig.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\DataConfig\\GameConfig.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\DataConfig\\GameConfig.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\DataConfig\\GameConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T07:48:07.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerWeaponIdleState.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\State\\PlayerWeaponIdleState.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Weapon\\State\\PlayerWeaponIdleState.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\State\\PlayerWeaponIdleState.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Weapon\\State\\PlayerWeaponIdleState.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T14:53:11.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Enemy\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Enemy\\Enemy.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Enemy\\Enemy.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Enemy\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T16:15:47.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RifleWeapon.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\Strategy\\RifleWeapon.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Weapon\\Strategy\\RifleWeapon.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\Strategy\\RifleWeapon.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Weapon\\Strategy\\RifleWeapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAArwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T10:42:35.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Projectile.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\Projectile\\Projectile.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Weapon\\Projectile\\Projectile.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\Projectile\\Projectile.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Weapon\\Projectile\\Projectile.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAuwCkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T11:07:05.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemyAnimator.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Enemy\\EnemyAnimator.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Enemy\\EnemyAnimator.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Enemy\\EnemyAnimator.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Enemy\\EnemyAnimator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T17:54:54.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IDamageable.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Interfaces\\IDamageable.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Interfaces\\IDamageable.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Interfaces\\IDamageable.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Interfaces\\IDamageable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T17:25:56.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EnemyConfig.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Enemy\\EnemyConfig.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Enemy\\EnemyConfig.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Enemy\\EnemyConfig.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Enemy\\EnemyConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T17:27:41.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WeaponStrategy.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\Strategy\\WeaponStrategy.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Weapon\\Strategy\\WeaponStrategy.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\Strategy\\WeaponStrategy.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Weapon\\Strategy\\WeaponStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T16:44:19.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PlayerWeaponEquipState.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\State\\PlayerWeaponEquipState.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Weapon\\State\\PlayerWeaponEquipState.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\State\\PlayerWeaponEquipState.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Weapon\\State\\PlayerWeaponEquipState.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T15:20:12.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProjectileConfig.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\Projectile\\ProjectileConfig.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Weapon\\Projectile\\ProjectileConfig.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\Projectile\\ProjectileConfig.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Weapon\\Projectile\\ProjectileConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T16:42:04.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PlayerWeaponAttackState.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\State\\PlayerWeaponAttackState.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Weapon\\State\\PlayerWeaponAttackState.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\State\\PlayerWeaponAttackState.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Weapon\\State\\PlayerWeaponAttackState.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T15:16:03.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PlayerWeaponController.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\PlayerWeaponController.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Weapon\\PlayerWeaponController.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\PlayerWeaponController.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Weapon\\PlayerWeaponController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T10:22:33.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IdleState.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Player\\State\\IdleState.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Player\\State\\IdleState.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Player\\State\\IdleState.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Player\\State\\IdleState.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T12:52:22.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BaseState.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\StateMachine\\BaseState.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\StateMachine\\BaseState.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\StateMachine\\BaseState.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\StateMachine\\BaseState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T16:16:57.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Player\\PlayerController.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Player\\PlayerController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T12:51:27.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PlayerStateFactory.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Player\\State\\PlayerStateFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Player\\State\\PlayerStateFactory.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Player\\State\\PlayerStateFactory.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Player\\State\\PlayerStateFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T15:09:02.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "WeaponBase.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\WeaponBase.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Weapon\\WeaponBase.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\WeaponBase.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Weapon\\WeaponBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T10:18:41.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MoveState.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Player\\State\\MoveState.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Player\\State\\MoveState.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Player\\State\\MoveState.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Player\\State\\MoveState.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T07:57:18.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PlayerWeaponStateFactory.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\State\\PlayerWeaponStateFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Weapon\\State\\PlayerWeaponStateFactory.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\State\\PlayerWeaponStateFactory.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Weapon\\State\\PlayerWeaponStateFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T15:16:44.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "BaseState.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Player\\State\\BaseState.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Player\\State\\BaseState.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Player\\State\\BaseState.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Player\\State\\BaseState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T12:50:17.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PlayerWeaponState.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\State\\PlayerWeaponState.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Weapon\\State\\PlayerWeaponState.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\State\\PlayerWeaponState.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Weapon\\State\\PlayerWeaponState.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T14:59:59.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EnemyLevelConfig.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Enemy\\EnemyLevelConfig.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Enemy\\EnemyLevelConfig.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Enemy\\EnemyLevelConfig.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Enemy\\EnemyLevelConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T13:33:44.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GenericSingleton.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Core\\GenericSingleton.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Core\\GenericSingleton.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Core\\GenericSingleton.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Core\\GenericSingleton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T10:35:33.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CameraShake.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Camera\\CameraShake.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Camera\\CameraShake.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Camera\\CameraShake.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Camera\\CameraShake.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T12:32:18.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "WeaponConfig.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\DataConfig\\WeaponConfig.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\DataConfig\\WeaponConfig.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\DataConfig\\WeaponConfig.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\DataConfig\\WeaponConfig.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T07:53:31.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PlayerConfig.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\DataConfig\\PlayerConfig.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\DataConfig\\PlayerConfig.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\DataConfig\\PlayerConfig.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\DataConfig\\PlayerConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T07:50:23.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "WeaponHandler.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\WeaponHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Weapon\\WeaponHandler.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Game\\Weapon\\WeaponHandler.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Weapon\\WeaponHandler.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T07:42:09.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DynamicJoystick.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Assets\\Joystick Pack\\Scripts\\Joysticks\\DynamicJoystick.cs",
+              "RelativeDocumentMoniker": "Assets\\_Assets\\Joystick Pack\\Scripts\\Joysticks\\DynamicJoystick.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Assets\\Joystick Pack\\Scripts\\Joysticks\\DynamicJoystick.cs",
+              "RelativeToolTip": "Assets\\_Assets\\Joystick Pack\\Scripts\\Joysticks\\DynamicJoystick.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:18:32.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Joystick.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Assets\\Joystick Pack\\Scripts\\Base\\Joystick.cs",
+              "RelativeDocumentMoniker": "Assets\\_Assets\\Joystick Pack\\Scripts\\Base\\Joystick.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Assets\\Joystick Pack\\Scripts\\Base\\Joystick.cs",
+              "RelativeToolTip": "Assets\\_Assets\\Joystick Pack\\Scripts\\Base\\Joystick.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAIcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:18:38.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PlayerStateFactory.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Player\\State\\PlayerStateFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Player\\State\\PlayerStateFactory.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Player\\State\\PlayerStateFactory.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Player\\State\\PlayerStateFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T17:01:43.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PlayerStateMachine.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Player\\PlayerStateMachine.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Player\\PlayerStateMachine.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie War\\Assets\\_Game\\Scripts\\Player\\PlayerStateMachine.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Player\\PlayerStateMachine.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T17:50:54.082Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

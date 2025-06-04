@@ -10,8 +10,12 @@ public class GameConfig : SingletonScriptableObject<GameConfig>
     [SerializeField] private WeaponStrategy[] weaponStrategy;
     public AudioClip grabWeaponSfx;
 
+    [Header("Camera Shake")]
+    [SerializeField] private CameraShakeConfig cameraShakeConfig;
+
 
     public WeaponStrategy[] WeaponStrategy => weaponStrategy;
     public PlayerConfig PlayerConfig => playerConfig;
+    public CameraShakeConfig CameraShakeConfig => cameraShakeConfig;
 }
 

@@ -19,11 +19,47 @@ MonoBehaviour:
   maxSpawnDistanceFromPlayer: 15
   waves:
   - enemyPrefab: {fileID: 4696483685626346376, guid: 00ac6998cf14f044189d95a6d73ec8fe, type: 3}
-    count: 2
+    count: 100
     spawnDelay: 0.02
     isBoss: 0
   - enemyPrefab: {fileID: 4696483685626346376, guid: 00ac6998cf14f044189d95a6d73ec8fe, type: 3}
-    count: 2
+    count: 200
+    spawnDelay: 0.02
+    isBoss: 0
+  - enemyPrefab: {fileID: 4696483685626346376, guid: 00ac6998cf14f044189d95a6d73ec8fe, type: 3}
+    count: 300
+    spawnDelay: 0.02
+    isBoss: 0
+  - enemyPrefab: {fileID: 4696483685626346376, guid: 00ac6998cf14f044189d95a6d73ec8fe, type: 3}
+    count: 400
+    spawnDelay: 0.02
+    isBoss: 0
+  - enemyPrefab: {fileID: 4696483685626346376, guid: 00ac6998cf14f044189d95a6d73ec8fe, type: 3}
+    count: 400
+    spawnDelay: 0.02
+    isBoss: 0
+  - enemyPrefab: {fileID: 4696483685626346376, guid: 00ac6998cf14f044189d95a6d73ec8fe, type: 3}
+    count: 400
+    spawnDelay: 0.02
+    isBoss: 0
+  - enemyPrefab: {fileID: 4696483685626346376, guid: 00ac6998cf14f044189d95a6d73ec8fe, type: 3}
+    count: 500
+    spawnDelay: 0.02
+    isBoss: 0
+  - enemyPrefab: {fileID: 4696483685626346376, guid: 00ac6998cf14f044189d95a6d73ec8fe, type: 3}
+    count: 600
+    spawnDelay: 0.02
+    isBoss: 0
+  - enemyPrefab: {fileID: 4696483685626346376, guid: 00ac6998cf14f044189d95a6d73ec8fe, type: 3}
+    count: 700
+    spawnDelay: 0.02
+    isBoss: 0
+  - enemyPrefab: {fileID: 4696483685626346376, guid: 00ac6998cf14f044189d95a6d73ec8fe, type: 3}
+    count: 800
+    spawnDelay: 0.02
+    isBoss: 0
+  - enemyPrefab: {fileID: 4696483685626346376, guid: 00ac6998cf14f044189d95a6d73ec8fe, type: 3}
+    count: 400
     spawnDelay: 0.02
     isBoss: 0
   requireBossDefeat: 0

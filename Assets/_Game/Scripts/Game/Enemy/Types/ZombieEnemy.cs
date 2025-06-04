@@ -32,8 +32,8 @@ public class ZombieEnemy : EnemyBase, IPooledObject
 
     protected override void Die()
     {        
-        EventBusManager.Instance.Publish(EventType.EnemyDied, this);
-        ObjectPool.Instance.ReturnToPool(PoolType.Zombie, gameObject);
+        base.Die();
+       // ObjectPool.Instance.ReturnToPool(PoolType.Zombie, gameObject);
     }
 
     private void UpdateDistance()

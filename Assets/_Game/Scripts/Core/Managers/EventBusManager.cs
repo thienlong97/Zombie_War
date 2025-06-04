@@ -6,6 +6,7 @@ public enum EventType
 {
     PlayerDied,
     PlayerFired,
+    PlayerHit,
     PlayerGrabWeapon,
     EnemyDied,
     EnemyHit,

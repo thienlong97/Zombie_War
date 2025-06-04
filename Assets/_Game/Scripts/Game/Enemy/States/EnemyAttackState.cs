@@ -37,6 +37,8 @@ public class EnemyAttackState : EnemyStateBase
             damageable.TakeDamage(enemy.EnemyConfig.AttackDamage);
         }
 
+        EventBusManager.Instance.Publish(EventType.PlayerHit, enemy.EnemyConfig.AttackDamage);
+
         nextAttackTime = Time.time + enemy.EnemyConfig.AttackCooldown;
     }
 } 

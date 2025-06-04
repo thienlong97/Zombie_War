@@ -7,11 +7,14 @@ using System.Collections.Generic;
 public class EnemyController : GenericSingleton<EnemyController>
 {
     private const int MAX_ACTIVE_ENEMIES = 60;
+    private const float WEAPON_RANGE = 10f; // Default weapon range
+    private const float HEIGHT_THRESHOLD = 0.2f; // Maximum height difference allowed
 
     [Header("Level Configuration")]
     [SerializeField] private EnemyLevelConfig[] levelConfigs;
     [SerializeField] private Transform playerTransform;
 
+    private List<EnemyBase> activeEnemies = new List<EnemyBase>();
     private EnemyLevelConfig currentLevelConfig;
     private GameObject currentNavMeshMap;
     private int currentWaveIndex = 0;
@@ -136,7 +139,7 @@ public class EnemyController : GenericSingleton<EnemyController>
             var enemyComponent = enemy.GetComponent<ZombieEnemy>();
             if (enemyComponent != null)
             {
-               // enemyComponent.Initialize(wave.isBoss);
+                activeEnemies.Add(enemyComponent);
             }
         }
     }
@@ -145,20 +148,62 @@ public class EnemyController : GenericSingleton<EnemyController>
     {
         if (playerTransform == null) return Vector3.zero;
 
+        const float MAX_SLOPE_ANGLE = 45f; // Maximum slope angle in degrees
+        const float MIN_CLEARANCE_HEIGHT = 2f; // Minimum space needed above spawn point
+        const float RAYCAST_HEIGHT = 5f; // Height to start the clearance check from
+
         for (int i = 0; i < 30; i++) // Try 30 times to find a valid position
         {
+            // Get random direction in circle around player
             Vector2 randomCircle = Random.insideUnitCircle.normalized;
             float randomDistance = Random.Range(currentLevelConfig.minSpawnDistanceFromPlayer, 
                                              currentLevelConfig.maxSpawnDistanceFromPlayer);
             
+            // Calculate target position in XZ plane
             Vector3 offset = new Vector3(randomCircle.x, 0, randomCircle.y) * randomDistance;
             Vector3 targetPosition = playerTransform.position + offset;
 
-            // Sample the NavMesh nearest position
+            // Sample the NavMesh nearest position with larger search area
             NavMeshHit hit;
-            if (NavMesh.SamplePosition(targetPosition, out hit, 5f, NavMesh.AllAreas))
+            float searchRadius = 10f;
+            if (NavMesh.SamplePosition(targetPosition, out hit, searchRadius, NavMesh.AllAreas))
             {
-                return hit.position;
+                // Check slope angle
+                if (Vector3.Angle(hit.normal, Vector3.up) > MAX_SLOPE_ANGLE)
+                {
+                    continue; // Skip if slope is too steep
+                }
+
+                // Check for clearance above the point
+                Vector3 checkStart = hit.position + Vector3.up * RAYCAST_HEIGHT;
+                RaycastHit clearanceHit;
+                if (Physics.Raycast(checkStart, Vector3.down, out clearanceHit, RAYCAST_HEIGHT))
+                {
+                    float clearance = RAYCAST_HEIGHT - clearanceHit.distance;
+                    if (clearance < MIN_CLEARANCE_HEIGHT)
+                    {
+                        continue; // Skip if not enough clearance
+                    }
+                }
+
+                // Check if the found position is within our desired spawn range
+                float distanceToPlayer = Vector3.Distance(new Vector3(hit.position.x, 0, hit.position.z), 
+                                                        new Vector3(playerTransform.position.x, 0, playerTransform.position.z));
+                
+                if (distanceToPlayer >= currentLevelConfig.minSpawnDistanceFromPlayer && 
+                    distanceToPlayer <= currentLevelConfig.maxSpawnDistanceFromPlayer)
+                {
+                    // Additional ground validation
+                    RaycastHit groundHit;
+                    Vector3 spawnPoint = hit.position + Vector3.up * 0.1f; // Slight offset to ensure ray hits ground
+                    if (Physics.Raycast(spawnPoint, Vector3.down, out groundHit, 0.3f))
+                    {
+                        // Use the ground hit point with a small offset
+                        return groundHit.point + Vector3.up * 0.1f;
+                    }
+                    
+                    return hit.position;
+                }
             }
         }
 
@@ -177,10 +222,7 @@ public class EnemyController : GenericSingleton<EnemyController>
         {         
             totalEnemiesDefeated++;
             activeEnemiesCount--;
-            // Only count towards level progress if it's a ZombieEnemy and within range
-            // The ZombieEnemy class will handle this check internally and only send the event if within range
-            //if (enemy.IsBoss)
-                //isBossDefeated = true;
+            activeEnemies.Remove(enemy);
         }
     }
 
@@ -190,6 +232,7 @@ public class EnemyController : GenericSingleton<EnemyController>
         {
             totalEnemiesSpawned--;
             activeEnemiesCount--;
+            activeEnemies.Remove(enemy);
         }
     }
 
@@ -214,5 +257,59 @@ public class EnemyController : GenericSingleton<EnemyController>
     public void SetPlayer(Transform player)
     {
         playerTransform = player;
+    }
+
+    public bool HasEnemyInRange(Vector3 position, float range = WEAPON_RANGE)
+    {
+        foreach (var enemy in activeEnemies)
+        {
+            if (enemy == null) continue;
+
+            Vector3 enemyPos = enemy.transform.position;
+            float heightDiff = Mathf.Abs(enemyPos.y - position.y);
+            
+            if (heightDiff <= HEIGHT_THRESHOLD)
+            {
+                // Project positions to XZ plane for horizontal distance check
+                Vector3 positionXZ = new Vector3(position.x, 0, position.z);
+                Vector3 enemyXZ = new Vector3(enemyPos.x, 0, enemyPos.z);
+                
+                if (Vector3.Distance(positionXZ, enemyXZ) <= range)
+                {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    public Transform GetNearestEnemyInRange(Vector3 position, float range = WEAPON_RANGE)
+    {
+        Transform nearestEnemy = null;
+        float nearestDistance = float.MaxValue;
+
+        foreach (var enemy in activeEnemies)
+        {
+            if (enemy == null) continue;
+
+            Vector3 enemyPos = enemy.transform.position;
+            float heightDiff = Mathf.Abs(enemyPos.y - position.y);
+            
+            if (heightDiff <= HEIGHT_THRESHOLD)
+            {
+                // Project positions to XZ plane for horizontal distance check
+                Vector3 positionXZ = new Vector3(position.x, 0, position.z);
+                Vector3 enemyXZ = new Vector3(enemyPos.x, 0, enemyPos.z);
+                
+                float distance = Vector3.Distance(positionXZ, enemyXZ);
+                if (distance <= range && distance < nearestDistance)
+                {
+                    nearestDistance = distance;
+                    nearestEnemy = enemy.transform;
+                }
+            }
+        }
+
+        return nearestEnemy;
     }
 } 

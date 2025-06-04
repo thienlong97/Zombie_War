@@ -15,7 +15,7 @@ MonoBehaviour:
   moveSpeed: 3
   turnSpeed: 100
   acceleration: 20
-  maxHealth: 10
+  maxHealth: 30
   attackDamage: 10
   detectionRange: 20
   attackRange: 0.7

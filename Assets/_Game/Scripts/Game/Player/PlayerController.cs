@@ -3,9 +3,6 @@ using UnityEngine;
 [RequireComponent (typeof(PlayerWeaponController))]
 public class PlayerController : MonoBehaviour
 {
-    public bool IsHaveEnemyInRange;
-    public Transform enemyTarget;
-
     [Header("References")]
     [SerializeField] private Rigidbody _rigidbody;
     [SerializeField] private Animator _animator;

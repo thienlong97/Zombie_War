@@ -45,7 +45,9 @@ public class MoveState : BaseState<PlayerController,PlayerStateFactory>
     {
         float walkSpeed = GameConfig.Instance.PlayerConfig.WalkSpeed;
         float runSpeed = GameConfig.Instance.PlayerConfig.RunSpeed;
-        float moveSpeed = _controller.IsHaveEnemyInRange ? walkSpeed : runSpeed;
+        float weaponRange = GameConfig.Instance.PlayerConfig.WeaponRange;
+        bool isHaveEnemyInRange = EnemyController.Instance.HasEnemyInRange(_controller.transform.position, weaponRange);
+        float moveSpeed = isHaveEnemyInRange ? walkSpeed : runSpeed;
         Vector2 joystickDirection = _controller.PlayerInputHandler.JoystickDirection;
         Vector3 moveDirection = new Vector3(joystickDirection.x, 0, joystickDirection.y);
         Vector3 velocityXZ = moveDirection.sqrMagnitude * moveDirection.normalized * moveSpeed;
@@ -59,7 +61,9 @@ public class MoveState : BaseState<PlayerController,PlayerStateFactory>
 
     private void UpdateRotate()
     {
-        if (_controller.IsHaveEnemyInRange) return;
+        float weaponRange = GameConfig.Instance.PlayerConfig.WeaponRange;
+        bool isHaveEnemyInRange = EnemyController.Instance.HasEnemyInRange(_controller.transform.position, weaponRange);
+        if (isHaveEnemyInRange) return;
 
         Vector3 direction = new Vector3(_controller.RigidBody.linearVelocity.x, 0, _controller.RigidBody.linearVelocity.z);
         Quaternion curQua = _controller.transform.rotation;

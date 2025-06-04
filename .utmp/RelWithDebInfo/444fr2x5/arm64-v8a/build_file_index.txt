@@ -1,0 +1,2 @@
+D:\UNITY\Out_Sources\Zombie_War\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+D:\UNITY\Out_Sources\Zombie_War\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

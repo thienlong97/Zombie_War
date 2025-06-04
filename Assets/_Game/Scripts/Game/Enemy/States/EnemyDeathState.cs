@@ -6,13 +6,19 @@ public class EnemyDeathState : EnemyStateBase
 
     public override void Enter()
     {
+        enemy.EnemyEffectHandler.OnDissolveComplete += OnDissolveEffectComplete;
+        enemy.EnemyEffectHandler.PlayDeathEffect();
         enemy.EnemyAnimator.PlayAnimation_Die();
         enemy.Agent.enabled = false;
-        
+        enemy.Collider.enabled = false;
         // Notify any listeners about the death
         EventBusManager.Instance.Publish(EventType.EnemyDied, null);
-        
-        // Destroy the enemy after animation
+
+    }
+
+    private void OnDissolveEffectComplete()
+    {
+        enemy.EnemyEffectHandler.OnDissolveComplete -= OnDissolveEffectComplete;
         ObjectPool.Instance.ReturnToPool(PoolType.Zombie, enemy.gameObject);
     }
 } 

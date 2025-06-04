@@ -10,20 +10,23 @@ using System;
 public abstract class EnemyBase : MonoBehaviour, IDamageable
 {
     [Header("Components")]
+    [SerializeField] protected EnemyEffectHandler enemyEffectHandler;
     [SerializeField] protected EnemyConfig enemyConfig;
     [SerializeField] protected Animator animator;
-
+    [SerializeField] protected Collider collider;
     protected EnemyAnimator enemyAnimator;
     protected EnemyStateMachine stateMachine;
     protected NavMeshAgent agent;
     protected Transform playerTransform;
+
 
     // Properties for states to access
     public EnemyConfig EnemyConfig => enemyConfig;
     public EnemyAnimator EnemyAnimator => enemyAnimator;
     public NavMeshAgent Agent => agent;
     public Transform PlayerTransform => playerTransform;
-
+    public EnemyEffectHandler EnemyEffectHandler => enemyEffectHandler; 
+    public Collider Collider => collider;
     /// <summary>
     /// Current health of the enemy
     /// </summary>
@@ -108,12 +111,14 @@ public abstract class EnemyBase : MonoBehaviour, IDamageable
             return;
         }
 
+       enemyEffectHandler.PlayHitEffect();
         var enemyHitData = new EnemyHitData(damage, transform.position);
         EventBusManager.Instance.Publish(EventType.EnemyHit, enemyHitData);
-
+      
         enemyAnimator.PlayAnimation_Hit();
         CurrentHealth = Mathf.Max(0, CurrentHealth - damage);
         OnHealthChanged?.Invoke(CurrentHealth);
+
 
         if (CurrentHealth <= 0)
         {
@@ -125,7 +130,8 @@ public abstract class EnemyBase : MonoBehaviour, IDamageable
     /// Handles the enemy's death
     /// </summary>
     protected virtual void Die()
-    {      
+    {
+        EventBusManager.Instance.Publish(EventType.EnemyDied, this);
         OnDeath?.Invoke();
         stateMachine.ChangeState(EnemyStateType.Die);
     }
@@ -138,6 +144,7 @@ public abstract class EnemyBase : MonoBehaviour, IDamageable
         agent.stoppingDistance = enemyConfig.AttackRange * 0.9f;
 
         CurrentHealth = enemyConfig.MaxHealth;
+        Collider.enabled = true;
     }
 
     protected virtual void InitializeStateMachine()

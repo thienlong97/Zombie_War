@@ -1,0 +1,343 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UNITY\\Out_Sources\\Zombie_War\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C94E761-F519-6804-0390-A4BC8EAAF3A8}|Game.Player.csproj|d:\\unity\\out_sources\\zombie_war\\assets\\_game\\scripts\\game\\effects\\bloodscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C94E761-F519-6804-0390-A4BC8EAAF3A8}|Game.Player.csproj|solutionrelative:assets\\_game\\scripts\\game\\effects\\bloodscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C94E761-F519-6804-0390-A4BC8EAAF3A8}|Game.Player.csproj|d:\\unity\\out_sources\\zombie_war\\assets\\_game\\scripts\\core\\managers\\eventbusmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C94E761-F519-6804-0390-A4BC8EAAF3A8}|Game.Player.csproj|solutionrelative:assets\\_game\\scripts\\core\\managers\\eventbusmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C94E761-F519-6804-0390-A4BC8EAAF3A8}|Game.Player.csproj|D:\\UNITY\\Out_Sources\\Zombie_War\\assets\\_game\\scripts\\game\\enemy\\controller\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C94E761-F519-6804-0390-A4BC8EAAF3A8}|Game.Player.csproj|solutionrelative:assets\\_game\\scripts\\game\\enemy\\controller\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C94E761-F519-6804-0390-A4BC8EAAF3A8}|Game.Player.csproj|d:\\unity\\out_sources\\zombie_war\\assets\\_game\\scripts\\game\\enemy\\enemyeffecthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C94E761-F519-6804-0390-A4BC8EAAF3A8}|Game.Player.csproj|solutionrelative:assets\\_game\\scripts\\game\\enemy\\enemyeffecthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C94E761-F519-6804-0390-A4BC8EAAF3A8}|Game.Player.csproj|D:\\UNITY\\Out_Sources\\Zombie_War\\assets\\_game\\scripts\\game\\enemy\\core\\enemybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C94E761-F519-6804-0390-A4BC8EAAF3A8}|Game.Player.csproj|solutionrelative:assets\\_game\\scripts\\game\\enemy\\core\\enemybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C94E761-F519-6804-0390-A4BC8EAAF3A8}|Game.Player.csproj|D:\\UNITY\\Out_Sources\\Zombie_War\\assets\\_game\\scripts\\game\\enemy\\states\\enemydeathstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C94E761-F519-6804-0390-A4BC8EAAF3A8}|Game.Player.csproj|solutionrelative:assets\\_game\\scripts\\game\\enemy\\states\\enemydeathstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C94E761-F519-6804-0390-A4BC8EAAF3A8}|Game.Player.csproj|D:\\UNITY\\Out_Sources\\Zombie_War\\assets\\_game\\scripts\\game\\enemy\\types\\zombieenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C94E761-F519-6804-0390-A4BC8EAAF3A8}|Game.Player.csproj|solutionrelative:assets\\_game\\scripts\\game\\enemy\\types\\zombieenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystick Pack\\Scripts\\Editor\\FloatingJoystickEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Joystick Pack\\Scripts\\Editor\\FloatingJoystickEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C94E761-F519-6804-0390-A4BC8EAAF3A8}|Game.Player.csproj|D:\\UNITY\\Out_Sources\\Zombie_War\\assets\\_game\\scripts\\game\\camera\\cinemachineshake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C94E761-F519-6804-0390-A4BC8EAAF3A8}|Game.Player.csproj|solutionrelative:assets\\_game\\scripts\\game\\camera\\cinemachineshake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystickpack\\Scripts\\Editor\\JoystickEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Joystickpack\\Scripts\\Editor\\JoystickEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C94E761-F519-6804-0390-A4BC8EAAF3A8}|Game.Player.csproj|D:\\UNITY\\Out_Sources\\Zombie_War\\assets\\_game\\scripts\\game\\player\\joystickbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C94E761-F519-6804-0390-A4BC8EAAF3A8}|Game.Player.csproj|solutionrelative:assets\\_game\\scripts\\game\\player\\joystickbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C94E761-F519-6804-0390-A4BC8EAAF3A8}|Game.Player.csproj|D:\\UNITY\\Out_Sources\\Zombie_War\\assets\\_game\\scripts\\game\\player\\playerinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C94E761-F519-6804-0390-A4BC8EAAF3A8}|Game.Player.csproj|solutionrelative:assets\\_game\\scripts\\game\\player\\playerinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystick Pack\\Scripts\\Editor\\VariableJoystickEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Joystick Pack\\Scripts\\Editor\\VariableJoystickEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystick Pack\\Scripts\\Editor\\DynamicJoystickEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Joystick Pack\\Scripts\\Editor\\DynamicJoystickEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystick Pack\\Scripts\\Joysticks\\VariableJoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Joystick Pack\\Scripts\\Joysticks\\VariableJoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystick Pack\\Scripts\\Joysticks\\FloatingJoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Joystick Pack\\Scripts\\Joysticks\\FloatingJoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystick Pack\\Scripts\\Base\\JoystickBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Joystick Pack\\Scripts\\Base\\JoystickBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystick Pack\\Scripts\\Joysticks\\FixedJoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Joystick Pack\\Scripts\\Joysticks\\FixedJoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystick Pack\\Scripts\\Joysticks\\DynamicJoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Joystick Pack\\Scripts\\Joysticks\\DynamicJoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4517816-202E-8DE9-A8E5-38F1684EA1E2}|Assembly-CSharp.Player.csproj|D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystickpack\\Scripts\\Base\\JoystickBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4517816-202E-8DE9-A8E5-38F1684EA1E2}|Assembly-CSharp.Player.csproj|solutionrelative:Assets\\Joystickpack\\Scripts\\Base\\JoystickBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BloodScreen.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\_Game\\Scripts\\Game\\Effects\\BloodScreen.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Effects\\BloodScreen.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\_Game\\Scripts\\Game\\Effects\\BloodScreen.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Effects\\BloodScreen.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAQwIIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:06:55.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventBusManager.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\_Game\\Scripts\\Core\\Managers\\EventBusManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Core\\Managers\\EventBusManager.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\_Game\\Scripts\\Core\\Managers\\EventBusManager.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Core\\Managers\\EventBusManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:04:46.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyEffectHandler.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\_Game\\Scripts\\Game\\Enemy\\EnemyEffectHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Enemy\\EnemyEffectHandler.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\_Game\\Scripts\\Game\\Enemy\\EnemyEffectHandler.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Enemy\\EnemyEffectHandler.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAADwv5oAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T12:51:06.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemyController.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\_Game\\Scripts\\Game\\Enemy\\Controller\\EnemyController.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Enemy\\Controller\\EnemyController.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\_Game\\Scripts\\Game\\Enemy\\Controller\\EnemyController.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Enemy\\Controller\\EnemyController.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAkwBAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T12:38:48.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EnemyDeathState.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\_Game\\Scripts\\Game\\Enemy\\States\\EnemyDeathState.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Enemy\\States\\EnemyDeathState.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\_Game\\Scripts\\Game\\Enemy\\States\\EnemyDeathState.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Enemy\\States\\EnemyDeathState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T12:30:04.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ZombieEnemy.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\_Game\\Scripts\\Game\\Enemy\\Types\\ZombieEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Enemy\\Types\\ZombieEnemy.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\_Game\\Scripts\\Game\\Enemy\\Types\\ZombieEnemy.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Enemy\\Types\\ZombieEnemy.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T12:05:48.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnemyBase.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\_Game\\Scripts\\Game\\Enemy\\Core\\EnemyBase.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Enemy\\Core\\EnemyBase.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\_Game\\Scripts\\Game\\Enemy\\Core\\EnemyBase.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Enemy\\Core\\EnemyBase.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAASwIYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T12:03:46.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JoystickEditor.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystickpack\\Scripts\\Editor\\JoystickEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\Joystickpack\\Scripts\\Editor\\JoystickEditor.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystickpack\\Scripts\\Editor\\JoystickEditor.cs",
+              "RelativeToolTip": "Assets\\Joystickpack\\Scripts\\Editor\\JoystickEditor.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T10:34:46.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JoystickBase.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\_Game\\Scripts\\Game\\Player\\JoystickBase.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Player\\JoystickBase.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\_Game\\Scripts\\Game\\Player\\JoystickBase.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Player\\JoystickBase.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAwJUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T10:32:42.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FloatingJoystickEditor.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystick Pack\\Scripts\\Editor\\FloatingJoystickEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\Joystick Pack\\Scripts\\Editor\\FloatingJoystickEditor.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystick Pack\\Scripts\\Editor\\FloatingJoystickEditor.cs",
+              "RelativeToolTip": "Assets\\Joystick Pack\\Scripts\\Editor\\FloatingJoystickEditor.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T10:19:42.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VariableJoystickEditor.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystick Pack\\Scripts\\Editor\\VariableJoystickEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\Joystick Pack\\Scripts\\Editor\\VariableJoystickEditor.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystick Pack\\Scripts\\Editor\\VariableJoystickEditor.cs",
+              "RelativeToolTip": "Assets\\Joystick Pack\\Scripts\\Editor\\VariableJoystickEditor.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T10:19:30.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DynamicJoystickEditor.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystick Pack\\Scripts\\Editor\\DynamicJoystickEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\Joystick Pack\\Scripts\\Editor\\DynamicJoystickEditor.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystick Pack\\Scripts\\Editor\\DynamicJoystickEditor.cs",
+              "RelativeToolTip": "Assets\\Joystick Pack\\Scripts\\Editor\\DynamicJoystickEditor.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T10:19:16.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "VariableJoystick.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystick Pack\\Scripts\\Joysticks\\VariableJoystick.cs",
+              "RelativeDocumentMoniker": "Assets\\Joystick Pack\\Scripts\\Joysticks\\VariableJoystick.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystick Pack\\Scripts\\Joysticks\\VariableJoystick.cs",
+              "RelativeToolTip": "Assets\\Joystick Pack\\Scripts\\Joysticks\\VariableJoystick.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAmwD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T10:19:00.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CinemachineShake.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\_Game\\Scripts\\Game\\Camera\\CinemachineShake.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Camera\\CinemachineShake.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\_Game\\Scripts\\Game\\Camera\\CinemachineShake.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Camera\\CinemachineShake.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T10:00:36.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "JoystickBase.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystickpack\\Scripts\\Base\\JoystickBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Joystickpack\\Scripts\\Base\\JoystickBase.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystickpack\\Scripts\\Base\\JoystickBase.cs",
+              "RelativeToolTip": "Assets\\Joystickpack\\Scripts\\Base\\JoystickBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T10:34:27.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FloatingJoystick.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystick Pack\\Scripts\\Joysticks\\FloatingJoystick.cs",
+              "RelativeDocumentMoniker": "Assets\\Joystick Pack\\Scripts\\Joysticks\\FloatingJoystick.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystick Pack\\Scripts\\Joysticks\\FloatingJoystick.cs",
+              "RelativeToolTip": "Assets\\Joystick Pack\\Scripts\\Joysticks\\FloatingJoystick.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T10:18:48.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PlayerInputHandler.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\_Game\\Scripts\\Game\\Player\\PlayerInputHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Player\\PlayerInputHandler.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\_Game\\Scripts\\Game\\Player\\PlayerInputHandler.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Player\\PlayerInputHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T10:05:02.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "JoystickBase.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystick Pack\\Scripts\\Base\\JoystickBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Joystick Pack\\Scripts\\Base\\JoystickBase.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystick Pack\\Scripts\\Base\\JoystickBase.cs",
+              "RelativeToolTip": "Assets\\Joystick Pack\\Scripts\\Base\\JoystickBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T10:11:30.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FixedJoystick.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystick Pack\\Scripts\\Joysticks\\FixedJoystick.cs",
+              "RelativeDocumentMoniker": "Assets\\Joystick Pack\\Scripts\\Joysticks\\FixedJoystick.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystick Pack\\Scripts\\Joysticks\\FixedJoystick.cs",
+              "RelativeToolTip": "Assets\\Joystick Pack\\Scripts\\Joysticks\\FixedJoystick.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T10:18:33.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DynamicJoystick.cs",
+              "DocumentMoniker": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystick Pack\\Scripts\\Joysticks\\DynamicJoystick.cs",
+              "RelativeDocumentMoniker": "Assets\\Joystick Pack\\Scripts\\Joysticks\\DynamicJoystick.cs",
+              "ToolTip": "D:\\UNITY\\Out_Sources\\Zombie_War\\Assets\\Joystick Pack\\Scripts\\Joysticks\\DynamicJoystick.cs",
+              "RelativeToolTip": "Assets\\Joystick Pack\\Scripts\\Joysticks\\DynamicJoystick.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T10:13:04.177Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

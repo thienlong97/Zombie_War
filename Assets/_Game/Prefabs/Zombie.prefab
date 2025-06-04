@@ -11,8 +11,10 @@ GameObject:
   - component: {fileID: 7964885926533802718}
   - component: {fileID: 2073797684930177042}
   - component: {fileID: 4896992301938901373}
+  - component: {fileID: 3343329731915388543}
   - component: {fileID: 7918879998133112030}
   - component: {fileID: 2213832337581434170}
+  - component: {fileID: 6460631915908442520}
   m_Layer: 0
   m_Name: Zombie
   m_TagString: Untagged
@@ -49,8 +51,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d10cf164bd2f024ba4769d44221918f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyEffectHandler: {fileID: 3343329731915388543}
   enemyConfig: {fileID: 11400000, guid: c87039b05af67564faf751b2eae78754, type: 2}
   animator: {fileID: 4952956888693344398}
+  collider: {fileID: 7918879998133112030}
 --- !u!114 &4896992301938901373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67,6 +71,33 @@ MonoBehaviour:
   attackRangeColor: {r: 1, g: 0, b: 0, a: 1}
   showDetectionRange: 1
   showAttackRange: 1
+--- !u!114 &3343329731915388543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4696483685626346376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eb04ce912dd355498e9deae46e78115, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skinnedMeshRenderer: {fileID: 6513253404637952808}
+  flashMaterial: {fileID: 2100000, guid: 7572ae352a68c27438509754c329154d, type: 2}
+  flashDuration: 0.1
+  flashColor: {r: 1, g: 1, b: 1, a: 1}
+  dissolveMaterial: {fileID: 2100000, guid: 05bcad1df7811e84fb0cb5c09db6b02b, type: 2}
+  dissolveDuration: 1
+  dissolveEdgeColor1: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  dissolveEdgeColor2: {r: 1, g: 0, b: 0, a: 1}
+  edgeWidth: 0.1
+  noiseScale: {x: 2, y: 2}
+  verticalBias: 1
+  upwardForce: 2
+  sandNoiseScale: 3
+  displacementStrength: 0.5
+  displacementSpeed: 2
 --- !u!65 &7918879998133112030
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -110,6 +141,33 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!54 &6460631915908442520
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4696483685626346376}
+  serializedVersion: 4
+  m_Mass: 9
+  m_Drag: 6
+  m_AngularDrag: 3
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 84
+  m_CollisionDetection: 0
 --- !u!1 &7954559052857598601
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,5 +376,10 @@ Transform:
 --- !u!95 &4952956888693344398 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 6672838614710946233, guid: 95ddc2cf570e86240a229f81b6acc58b, type: 3}
+  m_PrefabInstance: {fileID: 1740323848420524343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &6513253404637952808 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 4775335300550588959, guid: 95ddc2cf570e86240a229f81b6acc58b, type: 3}
   m_PrefabInstance: {fileID: 1740323848420524343}
   m_PrefabAsset: {fileID: 0}

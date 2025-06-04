@@ -14,10 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerConfig:
     playerName: Tom
-    walkSpeed: 3
-    runSpeed: 5
+    walkSpeed: 5
+    runSpeed: 6
+    weaponRange: 8
+    weaponRotationSpeed: 5
   weaponStrategy:
   - {fileID: 11400000, guid: 3bff39adda52dbb419def35ae0b5e8bc, type: 2}
   - {fileID: 11400000, guid: 832902ad99e46c741a8b0d27007cecc5, type: 2}
   - {fileID: 11400000, guid: f56f82ebc8e925c44ba32363a013e3dc, type: 2}
   grabWeaponSfx: {fileID: 8300000, guid: 785832b034049224396a804af232d91c, type: 3}
+  cameraShakeConfig:
+    lightShakeIntensity: 1
+    lightShakeDuration: 0.2
+    mediumShakeIntensity: 2.5
+    mediumShakeDuration: 0.3
+    heavyShakeIntensity: 4
+    heavyShakeDuration: 0.5
+    customShakePresets:
+    - presetName: Custom - Short
+      intensity: 1
+      duration: 0.1

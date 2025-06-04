@@ -1,9 +1,17 @@
 using System;
 using UnityEngine;
 
+
+
+//public class Joystick
+//{
+//    public Vector2 Direction;
+//}
+
 public class PlayerInputHandler : MonoBehaviour
 {
-    [SerializeField] private Joystick joyStick;
+    [SerializeField] private JoystickBase joyStick;
+
 
     public event Action OnSwitchWeapon;
     public event Action OnThrowBomb;
